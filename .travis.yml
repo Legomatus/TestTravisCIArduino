@@ -1,10 +1,4 @@
 language: C
-  group: travis_latest
-
-addons:
-  apt:
-    packages:
-    - octave
 
 before_install:                                                         # Tasks to perform before installing
                                                                        
@@ -25,14 +19,13 @@ install:                                                                # Actual
   - ln -s $PWD /usr/local/share/arduino/libraries/AutomationShield      # Install repository as a library
 
                       
-before_script:
- - octave-cli --eval "addpath('matlab');savepath"   #Adding and saving the subdirectory to Octave path   
+
  
  
 script:
 
 ###### MATLAB ######
-- octave-cli Zadanie1.m   
+
 
 ###### Arduino IDE ######
 #Uno#
