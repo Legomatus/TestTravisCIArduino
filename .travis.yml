@@ -31,10 +31,7 @@ before_script:
 script:
 
 ###### MATLAB ######
-
-#Functions#
- - octave-cli --eval "constrain(2,-1,1)"                                # Constrain
- - octave-cli --eval "map(0.5,0,1,0,100)"                               # Map
+- octave-cli Zadanie1.m   
 
 ###### Arduino IDE ######
 #Uno#
