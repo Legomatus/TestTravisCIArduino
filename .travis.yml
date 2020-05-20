@@ -23,10 +23,6 @@ install:                                                                # Actual
  
  
 script:
-
-###### MATLAB ######
-
-
 ###### Arduino IDE ######
 #Uno#
  - arduino --verify --board arduino:avr:uno $PWD/Blink.ino
