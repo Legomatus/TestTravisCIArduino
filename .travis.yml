@@ -31,7 +31,7 @@ before_script:
 script:
 
 ###### MATLAB ######
-- octave-cli matlab/Zadanie1.m   
+- octave-cli $PWD/Zadanie1.m   
 
 ###### Arduino IDE ######
 #Uno#
